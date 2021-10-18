@@ -1,1 +1,63 @@
+:root, .site-theme-dark, .site-theme-contrast {
+    --color-background: 0, 0, 0;
+    --color-foreground: 5, 5, 5;
+    --color-foreground-grey: 10, 10, 10;
+    --color-foreground-grey-dark: 20, 20, 20;
+    --color-foreground-blue-dark: 10, 10, 10;
+    --color-shadow-blue: 0, 0, 0;
+    --color-background-300: 15, 15, 15;
+    --color-background-100: 3, 3, 3;
+    --color-background-200: 12, 12, 12;
+    --color-gray-300: 5, 5, 5;
+    --color-blue: 124, 137, 154;
+}
 
+.list-stats {
+    margin-bottom: 10px !important;
+}
+
+.header-wrap .nav-wrap .nav .link:nth-child(7), .header-wrap .nav-wrap .nav .link:nth-child(8) {
+    width: 0;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.logo img{
+    filter: grayscale(100%);
+}
+
+
+.nav-wrap, #nav.nav {
+    background: rgb(10, 10, 10);
+}
+
+.banner{
+    margin-top: 69px;
+}
+
+.wrap > .footer {
+    background-color: rgb(var(--color-background));
+}
+
+.theme-selector h2 {
+    color: rgb(var(--color-blue));
+}
+
+.activity-history > .history-day {
+    border-radius: 5px;
+}
+
+.desktop:nth-of-type(3), .stats-wrap + .footer, .hohDownload{
+    display: none;
+}
+
+.actions > .nav-btn{
+    border-radius: 20px;
+    width: 120px;
+    padding: 10px 20px;
+}
+
+.mod-badge-wrap.follower-badge {
+    border-radius: 10px;
+}
