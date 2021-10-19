@@ -16,6 +16,7 @@
     margin-bottom: 10px !important;
 }
 
+/*---Review Remove---*/
 .header-wrap .nav-wrap .nav .link:nth-child(7), .header-wrap .nav-wrap .nav .link:nth-child(8) {
     width: 0;
     margin: 0;
@@ -48,10 +49,12 @@
     border-radius: 5px;
 }
 
+/*---Genre & Stats Remove---*/
 .desktop:nth-of-type(3), .stats-wrap + .footer, .hohDownload{
     display: none;
 }
 
+/*---Follow Button---*/
 .actions > .nav-btn{
     border-radius: 20px;
     width: 120px;
