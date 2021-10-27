@@ -30,7 +30,7 @@
 
 
 .nav-wrap, #nav.nav {
-    background: rgb(10, 10, 10);
+    background: rgba(var(--color-foreground-grey));
 }
 
 .banner{
@@ -63,4 +63,13 @@
 
 .mod-badge-wrap.follower-badge {
     border-radius: 10px;
+}
+
+/*---Hover--*/
+.title[data-v-366e5d34] {
+    background:rgba(var(--color-background), 0.6);
+}
+   
+.tooltip[data-v-366e5d34] {
+    background:rgba(var(--color-background), 0.9);
 }
